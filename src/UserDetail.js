@@ -40,6 +40,7 @@ function UserDetail() {
       <p>state: {user.state}</p>
       <p>country:{user.country}</p>
       <p>Phone: {user.phone}</p>
+      <img src={user.photo} style={{ width: 40, height: 40}}/>
     </div>
   );
 }
